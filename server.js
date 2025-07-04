@@ -40,7 +40,7 @@ async function updateStatusJson() {
 
 // Ejecutar al inicio y luego cada 10 minutos
 updateStatusJson();
-setInterval(updateStatusJson, 10 * 60 * 1000); // 10 minutos
+//setInterval(updateStatusJson, 10 * 60 * 1000); // 10 minutos
 
 app.listen(PORT, () => {
   console.log(`Servidor escuchando en puerto ${PORT}`);

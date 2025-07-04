@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const cheerio = require('cheerio'); // Importa Cheerio
 
 async function scrapeOktaStatusLogic() {

@@ -14,12 +14,7 @@ async function scrapeOktaStatusLogic() {
     try {
         console.error('[INFO] scrapedData.timestamp:'+scrapedData.timestamp);
         // Inicia una nueva instancia de Chromium (headless significa sin interfaz visual)
-        browser = await puppeteer.launch({ headless: true,
-        args: [
-            '--no-sandbox',
-            '--disable-setuid-sandbox',
-          ],
-        });
+        browser = await puppeteer.launch({ headless: true });
         const page = await browser.newPage();
 
         // Configura un User-Agent para simular un navegador real

@@ -1,11 +1,10 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const scrapeOktaStatusLogic = require('./scrapeOktaStatusLogic');
+const { scrapeOktaStatusLogic } = require('./scrapeOktaStatusLogic');
 
 
-// Importa la lógica de scraping que ya tienes.
-// Asegúrate de que la ruta al archivo sea correcta.
+// Importa la lógica de scraping
 
 const app = express();
 // Render te asignará un puerto, o usaremos el 3000 para pruebas locales.

@@ -1,5 +1,5 @@
 const express = require('express');
-const express = require('axios');
+const axios = require('axios');
 // Importa la lógica de scraping que ya tienes.
 // Asegúrate de que la ruta al archivo sea correcta.
 const { scrapeOktaStatusLogic } = require('./scrapeOktaStatusLogic'); // <-- CAMBIA ESTO SI TU ARCHIVO SE LLAMA DIFERENTE
